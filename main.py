@@ -244,7 +244,7 @@ def create_plot():
     share_of_vacancies_by_city(ax4, kon_vacancy_dict, share_four_graphic)
     plt.tight_layout()
     plt.show()
-    # plt.savefig('C:\\Users\\Notebook\\Desktop\\graph.png', format='png')
+    plt.savefig('graph.png', format='png')
     return axs
 
 create_plot()
